@@ -1,0 +1,10 @@
+**/.*
+!.gitignore
+**.csv
+**.npy
+**.png
+**.pth
+**.jpg
+**.json
+**.h5
+!**specs.json

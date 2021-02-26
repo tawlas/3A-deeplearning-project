@@ -1,0 +1,23 @@
+{
+  "Description": "Trajectory autoencoder",
+  "DataPath": "data/trajectories.npy",
+  "ModelDir": "autoencoder/ModelParameters",
+  "LogsDir": "autoencoder/Logs",
+  "LatentDim": 64,
+  "InputDim": 128,
+  "Dropout": 0.2,
+  "TrainSplit": 0.8,
+  "ValSplit": 0.2,
+  "NumEpochs": 2000,
+  "CheckpointFrequency": 50,
+  "LogFrequency": 10,
+  "BatchSize": 100,
+  "GradClip": 3,
+  "LearningRate": 0.00005,
+  "eval": {
+    "InputDim": 128,
+    "Checkpoint":950,
+    "PredictionDir": "autoencoder/Codes/real",
+    "DataFolder": "data/trajectories_interpolated"
+  }
+}

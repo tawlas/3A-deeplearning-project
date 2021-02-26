@@ -1,0 +1,164 @@
+Image 1 | 20 40 50 10
+Network path cost 59.29428941080323
+RRT* path cost 58.100920934404726
+Found rrt path in 35.128406047821045
+Found net path in 0.0011987686157226562
+
+Image 1 | start [20. 40.] - goal [50. 10.] 
+RRT finding path
+Network path cost 59.29428941080323
+RRT* path cost 53.38571019467014
+Found rrt path in 14.519736289978027
+Found net path in 0.0010058879852294922
+
+Image 1 | start [20. 40.] - goal [50. 10.] 
+RRT finding path
+Network path cost 59.29428941080323
+RRT* path cost 67.54723913732003
+Found rrt path in 29.328685998916626
+Found net path in 0.001238107681274414
+
+Image 1 | start [20. 40.] - goal [50. 10.] 
+RRT finding path
+Network path cost 59.29428941080323
+RRT* path cost 77.828390416204
+Found rrt path in 43.14381241798401
+Found net path in 0.00116729736328125
+
+Image 1 | start [20. 40.] - goal [50. 10.] 
+RRT finding path
+Network path cost 59.29428941080323
+RRT* path cost 53.61095889155333
+Found rrt path in 13.499043941497803
+Found net path in 0.0007996559143066406
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+Image 4 | 11 10 45 40
+Network path cost 74.48711559026066
+RRT* path cost 62.94849601037184
+Found rrt path in 64.34379053115845
+Found net path in 0.001001596450805664
+
+Image 4 | start [11. 10.] - goal [45. 40.] 
+RRT finding path
+Network path cost 74.48711559026066
+RRT* path cost 65.94812365405151
+Found rrt path in 21.611757278442383
+Found net path in 0.0010211467742919922
+
+Image 4 | start [11. 10.] - goal [45. 40.] 
+RRT finding path
+Network path cost 74.48711559026066
+RRT* path cost 62.569430334042345
+Found rrt path in 34.403177976608276
+Found net path in 0.0008783340454101562
+
+Image 4 | start [11. 10.] - goal [45. 40.] 
+RRT finding path
+Network path cost 74.48711559026066
+RRT* path cost 66.7123204584711
+Found rrt path in 36.22877383232117
+Found net path in 0.0010170936584472656
+
+Image 4 | start [11. 10.] - goal [45. 40.] 
+RRT finding path
+Network path cost 74.48711559026066
+RRT* path cost 64.16362463135285
+Found rrt path in 23.35710644721985
+Found net path in 0.0009980201721191406
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+Image 10 | start [30. 40.] - goal [45. 10.] 
+Network path cost 33.72265942088511
+RRT* path cost 33.60803380689621
+Found rrt path in 2.0151474475860596
+Found net path in 0.0009808540344238281
+
+Image 10 | start [30. 40.] - goal [45. 10.] 
+RRT finding path
+Network path cost 33.72265942088511
+RRT* path cost 34.741727613206734
+Found rrt path in 4.322306394577026
+Found net path in 0.001110076904296875
+
+Image 10 | start [30. 40.] - goal [45. 10.] 
+RRT finding path
+Network path cost 33.72265942088511
+RRT* path cost 34.94545352619623
+Found rrt path in 6.966002702713013
+Found net path in 0.0008852481842041016
+
+Image 10 | start [30. 40.] - goal [45. 10.] 
+RRT finding path
+Network path cost 33.72265942088511
+RRT* path cost 34.43065426717823
+Found rrt path in 2.2835700511932373
+Found net path in 0.001081228256225586
+
+Image 10 | start [30. 40.] - goal [45. 10.] 
+RRT finding path
+Network path cost 33.72265942088511
+RRT* path cost 34.592549504914096
+Found rrt path in 2.53047251701355
+Found net path in 0.0010886192321777344
+\\\\\\\\\\\\\\\\\\\\\\\\
+
+Image 72 | start [11.8 30. ] - goal [55.  43.6] 
+RRT finding path
+Network path cost 67.95148038400394
+RRT* path cost 55.952568486109286
+Found rrt path in 17.044754028320312
+Found net path in 0.001016378402709961
+
+Image 72 | start [11.8 30. ] - goal [55.  43.6] 
+RRT finding path
+Network path cost 67.95148038400394
+RRT* path cost 58.085636725069705
+Found rrt path in 29.24928617477417
+Found net path in 0.0010073184967041016
+
+
+Image 72 | start [11.8 30. ] - goal [55.  43.6] 
+RRT finding path
+Network path cost 67.95148038400394
+RRT* path cost 57.68594749248342
+Found rrt path in 23.00905179977417
+Found net path in 0.0011088848114013672
+
+Image 72 | start [11.8 30. ] - goal [55.  43.6] 
+RRT finding path
+Network path cost 67.95148038400394
+RRT* path cost 56.24127696673564
+Found rrt path in 23.10951042175293
+Found net path in 0.0007350444793701172
+
+Image 72 | start [11.8 30. ] - goal [55.  43.6] 
+RRT finding path
+Network path cost 67.95148038400394
+RRT* path cost 54.86857029701344
+Found rrt path in 24.87989854812622
+Found net path in 0.0010704994201660156
+
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\
+original-mine
+4-1
+1-4
+3-5
+7-6
+8-7
+9-8
+2-9
+3-10
+35-11
+37-12
+39-13
+41-14
+42-15
+43-16
+45-17
+46-18
+47-19

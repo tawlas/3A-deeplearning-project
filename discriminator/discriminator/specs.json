@@ -1,0 +1,22 @@
+{
+  "Description": "Trajectory Discriminator",
+  "RealDataDir": "data/real",
+  "FakeDataDir": "data/fake",
+  "ModelDir": "discriminator/ModelParameters",
+  "LogsDir": "discriminator/Logs",
+  "InputDim": 320,
+  "Dropout": 0.0,
+  "TrainSplit": 0.8,
+  "ValSplit": 0.2,
+  "NumEpochs": 2000,
+  "CheckpointFrequency": 50,
+  "LogFrequency": 10,
+  "BatchSize": 100,
+  "GradClip": 3,
+  "LearningRate": 0.0001,
+  "eval": {
+    "PredictionPath": "discriminator/Predictions/latent_vectors.npy",
+    "InputsPath": "data/latent_trajectories_environment.npy",
+    "Checkpoint": 100
+  }
+}

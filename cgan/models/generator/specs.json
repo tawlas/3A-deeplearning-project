@@ -1,0 +1,28 @@
+{
+  "Description": "Trajectory generator",
+  "DataDir": "data",
+  "ModelDir": "generator/ModelParameters",
+  "LogsDir": "generator/Logs",
+  "InputDim": 260,
+  "EnvDim": 256,
+  "NPoints": 64,
+  "Dropout": 0.0,
+  "SeqLength": 64,
+  "TrainSplit": 0.8,
+  "ValSplit": 0.2,
+  "NumEpochs": 2000,
+  "CheckpointFrequency": 50,
+  "LogFrequency": 10,
+  "BatchSize": 100,
+  "GradClip": 3,
+  "LearningRate": 0.00005,
+  "eval": {
+    "GenerationPath": "generator/generation/trajectories_generated.json",
+    "StartGoalPath": "data/latent_trajectories_environment.npy",
+    "EnvDataFolder": "data/"
+  },
+  "Dependencies":{
+    "ExpDirAE":"../autoencoder/autoencoder",
+    "ExpDirDiscriminator": "../discriminator/discriminator"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ObstaclePath": "../2dDeepSDF/data/random_obstacle/test/obstacle_zones.json",
+  "FreeZonePath": "../2dDeepSDF/data/random_obstacle/test/free_zone.json",
+  "StartGoalPath": "../2dDeepSDF/data/random_obstacle/test/start_goal_obs.json",
+  "OutputDir": "../traj_autoencoder/data/trajectories_obs",
+  "test": {
+    "ResultPath":"data/test_results_rrtstar.h5",
+    "ObstaclePath":"../metrics/obstacle_zone_test.json",
+    "StartGoalPath": "../metrics/start_goal_test.json",
+    "EnvFolder": "../2dDeepSDF/chomp256/Reconstructions/test/codes"
+
+  }
+}

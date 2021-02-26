@@ -1,0 +1,47 @@
+{
+  "Description": "This experiment learns a shape representation for images ",
+  "DataSource": "data/random_obstacle",
+  "LabelsPath": "data/random_obstacle/SDF/sdf_labels.npy",
+  "NetworkArch": "deep_sdf_decoder",
+  "NetworkSpecs": {
+    "dims": [256, 256, 256,256,256,256,256],
+    "dropout": [0, 1, 2, 3, 4, 5, 6],
+    "dropout_prob": 0.2,
+    "norm_layers": [0, 1, 2, 3, 4, 5, 6],
+    "latent_in": [],
+    "xy_in_all": false,
+    "use_tanh": false,
+    "latent_dropout": false,
+    "weight_norm": true
+  },
+  "eval": {
+    "DataSource": "data/test/test_sdf",
+    "PredDir":"chomp256/Reconstructions/test"
+  },
+  "CodeLength": 256,
+  "NumEpochs": 2001,
+  "SnapshotFrequency": 100,
+  "LogFrequency": 50,
+  "AdditionalSnapshots": [],
+  "LearningRateSchedule": [
+    {
+      "Type": "Step",
+      "Initial": 0.0005,
+      "Interval": 100,
+      "Factor": 0.5
+    },
+    {
+      "Type": "Step",
+      "Initial": 0.001,
+      "Interval": 100,
+      "Factor": 0.5
+    }
+  ],
+  "SamplesPerScene": 4096,
+  "ScenesPerBatch": 64,
+  "DataLoaderThreads": 16,
+  "ClampingDistance": 0.1,
+  "CodeRegularization": true,
+  "CodeRegularizationLambda": 1e-4,
+  "CodeBound": 1.0
+}

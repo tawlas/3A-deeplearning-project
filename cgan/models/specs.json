@@ -1,0 +1,42 @@
+{
+  "Description": "CGAN Trajectory Generator",
+  "discriminator": {
+    "ModelDir": "models/discriminator/ModelParameters",
+    "LogsDir": "models/discriminator/Logs",
+    "InputDim": 320,
+    "LearningRate": 0.00005,
+    "GradClip": 10
+  },
+  "generator": {
+    "ModelDir": "models/generator/ModelParameters",
+    "LogsDir": "models/generator/Logs",
+    "NPoints": 64,
+    "InputDim": 260,
+    "LearningRate": 0.00005,
+    "GradClip": 10
+  },
+  "RealDataDir": "data/real",
+  "FakeDataDir": "data/fake",
+  "TrainSplit": 0.8,
+  "ValSplit": 0.2,
+  "NumEpochs": 2000,
+  "CheckpointFrequency": 50,
+  "LogFrequency": 1,
+  "BatchSize": 100,
+  "GradClip": 10,
+  "eval": {
+    "PredictionPath": "discriminator/Predictions/latent_vectors.npy",
+    "InputsPath": "data/latent_trajectories_environment.npy",
+    "Checkpoint": 350,
+    "ResultPath":".h5"
+  },
+  "test": {
+    "Checkpoint": 350,
+    "ResultPath":"data/test_results_cgan.h5",
+    "ObstaclePath":"../metrics/obstacle_zone_test.json",
+    "StartGoalPath": "../metrics/start_goal_test.json",
+    "EnvFolder": "../2dDeepSDF/chomp256/Reconstructions/test/codes"
+
+  },
+  "ExpDirAE":"../autoencoder/autoencoder"
+}
