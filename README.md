@@ -14,7 +14,7 @@ python generate_2d_dataset.py -n 1000 -o 2dDeepSDF/data/random_obstacle/BW
 
 où l'argument -n est le nombre d'images dans le dataset.
 
-### Zones libres and zones d'obstacles
+### Zones libres et zones d'obstacles
 
 Emplacement: racine
 
@@ -185,14 +185,14 @@ python preprocess_cgan.py -t ../autoencoder/data/trajectories_interpolated -e ..
 python preprocess_cgan.py -t ../autoencoder/autoencoder/Codes/fake -e ../2dDeepSDF/chomp256/Reconstructions/fake/Codes   -o data/fake -f
 ```
 
-2. Entrainemant du discriminator:
+2. Entrainemant du discriminateur:
 
 ```
 python train_cgan.py -e models
 
 ```
 
-### Discriminator
+### Discriminateur
 
 1. Préparez les données:
    Concatène une trajectoire latente, son environnement latent correspondant et son label (éviter ou heurter un obstacle).
@@ -211,13 +211,13 @@ python preprocess_d.py -t ../autoencoder/autoencoder/Codes/real -e ../2dDeepSDF/
 python preprocess_d.py -t ../autoencoder/autoencoder/Codes/fake -e ../2dDeepSDF/chomp256/Reconstructions/fake/Codes -l 0  -o data/fake
 ```
 
-2. Entrainement du discriminator:
+2. Entrainement du discriminateur:
 
 ```
 python train_discriminator.py -e discriminator
 ```
 
-### Generator
+### Generateur
 
 Prend un vecteur d'environnement et les points début et fin pour générer une trajectoire.
 
@@ -255,7 +255,7 @@ python train_generator.py -e generator
 python infer_generator.py -e generator -c latest
 ```
 
-## Test and results evaluations
+## Tests et resultats d'évaluations
 
 ### Obtenir les zones des environnements de test
 
