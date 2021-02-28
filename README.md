@@ -2,6 +2,18 @@
 
 ## Entrainement et évaluation
 
+### Génération de dataset
+
+Emplacement: racine
+
+Pour génerer le dataset, executer:
+
+```
+python generate_2d_dataset.py -n 1000 -o 2dDeepSDF/data/random_obstacle/BW
+```
+
+où l'argument -n est le nombre d'images dans le dataset.
+
 ### Zones libres and zones d'obstacles
 
 Emplacement: racine
